@@ -1,0 +1,327 @@
+@media(max-width: 1500px) {
+    .products__items {
+        justify-content: center;
+        margin-left: 0;
+    }
+}
+
+@media(max-width: 1300px) {
+    .services__items {
+        position: static;
+        margin-bottom: 30px;
+        flex-direction: column; 
+    }
+
+    .services__item {
+        margin: 0 auto;
+        max-width: 100%;
+    }
+
+    .services__items div+div {
+        margin-top: 10px;
+        margin-left: auto;
+    }
+
+    .services__inner {
+        padding-top: 30px;
+    }
+    .advantages__inner {
+        flex-wrap: wrap;
+    }
+    .advantages__left {
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+    .advantages__items {
+        justify-content: center;
+    }
+    .advantages__info {
+        margin: 0 auto;
+        text-align: center;
+        padding-right: 0;
+    }
+    .feedback__inner {
+        flex-wrap: wrap;
+        &>div {
+            margin: 0 auto;
+        }
+        &>div+div {
+            margin-top: 30px;
+        }
+    }
+    .feedback__info {
+        text-align: center;
+    }
+    .contact__inner {
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact__info {
+        text-align: center;
+    }
+    .contact__form {
+        button {
+            position: static;
+            width: 100%;
+        }
+    }
+}
+
+@media(max-width: 1215px) {
+    .plans__inner {
+        flex-wrap: wrap;
+    }
+    .plans__info {
+        max-width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .plans__images {
+        width: 100%;
+        text-align: center;
+    }
+
+    .plans__images img{
+        margin: 0 auto;
+        display: inline-block;
+    }
+    .clients {
+        padding: 50px 0;
+    }
+    .clients__inner {
+        flex-direction: column-reverse;
+        align-items: center;
+        div {
+            text-align: center;
+        }
+        &>div+div {
+            margin-bottom: 50px;
+        }
+    }
+}
+
+@media(max-width: 1050px) {
+    .services__types-wrapper {
+        max-width: 50%;
+    }
+    .footer__inner {
+        padding: 60px 0;
+        flex-direction: column;
+        align-items: center;
+        &>div {
+            text-align: center;
+        }
+        &>div+div {
+            margin-top: 30px;
+        }
+    }
+    .footer__left {
+        .footer__logo,
+        .contact__text {
+            margin-bottom: 60px;
+        }
+    }
+}
+
+@media(max-width: 920px) {
+    .header__title {
+        font-size: 50px;
+    }
+    .services__title {
+        font-size: 50px;
+    }
+}
+
+@media(max-width: 815px) {
+    .header__menu {
+        display: none;
+    }
+    .menu__btn {
+        display: block;
+    }
+    .products {
+        padding: 50px 0;
+    }
+    .products__btn button+button {
+        margin-left: auto;
+        margin-top: 20px;
+    }
+    .btn {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@media(max-width: 765px) {
+    .services__title {
+        font-size: 40px;
+    }
+    .plans__info-title {
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 700px) {
+    .advantages__items {
+        display: block;
+        &>div+div {
+            margin-top: 30px;
+        }
+    }
+    .advantages__item {
+        margin: 0 auto;
+    }
+    .advantages__left>div+div {
+        margin-top: 30px;
+    }
+    .advantages__info-title {
+        font-size: 36px;
+        margin-bottom: 25px;
+    }
+    .feedback__info-title {
+        font-size: 36px;
+    }
+    .feedback__image {
+        img {
+            max-width: 100%;
+        }  
+    }
+    .feedback {
+        padding: 50px 0;
+    }
+    .clients__info-title {
+        font-size: 36px;
+    }
+    .design {
+        background-image: none;
+    }
+    .design__inner {
+        padding: 60px 0;
+    }
+    .design__info {
+        max-width: 100%;
+        text-align: center;
+    }
+    .footer__left {
+        max-width: 100%;
+        .footer__links {
+            a {
+                margin-right: 0;
+            }
+            a+a {
+                margin-left: 30px;
+            }
+        }
+    }
+    .footer__right {
+        .footer__menu {
+        margin-bottom: 60px;
+        flex-direction: column;
+        li+li {
+            margin-left: 0;
+            margin-top: 20px;
+        }
+        }
+    }
+    
+}
+
+@media(max-width: 600px) {
+    .header__title {
+        font-size: 40px;
+    }
+    .services__title {
+        font-size: 30px;
+    }
+    .services__types-wrapper {
+        max-width: 100%;
+    }
+    .feedback__info {
+        div {
+            margin-bottom: 30px;
+        }
+    }
+    .feedback__info-title {
+        font-size: 25px;
+    }
+    .clients__info-title {
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+    .clients__logo {
+        max-width: 100%;
+        flex-wrap: wrap;
+        div+div {
+            margin-top: 30px;
+        }
+        &-item {
+            width: 100%;
+        }
+    }
+    .contact {
+        padding: 60px 0;
+    }
+    .contact__info-title {
+        font-size: 48px;
+    }
+}
+
+@media(max-width: 575px) {
+    .plans__images img+img {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .design__info-title {
+        font-size: 25px;
+    }
+    .design__items {
+        flex-wrap: wrap;
+        &>div {
+            margin: 0 auto;
+        }
+        &>div+div {
+            margin-top: 30px;
+        }
+    }
+}
+
+@media(max-width: 500px) {
+    .advantages__info-title {
+        font-size: 30px;
+    }
+    .contact__info-title {
+        font-size: 36px;
+    }
+    .contact__form form .contact__form-row {
+        display: block;
+        input {
+            display: block;
+            max-width: 100%;
+        }
+    }
+}
+
+@media(max-width: 450px) {
+    .header__title {
+        font-size: 30px;
+    }
+    .header__btn {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .header__links a+a {
+        margin-left: 0;
+    }
+    .products__items {
+        max-width: 100%;
+        img {
+            max-width: 100%;
+        }
+    }
+    .products__item {
+        margin-right: 0;
+    }
+    
+}
+
