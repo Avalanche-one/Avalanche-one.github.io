@@ -19,4 +19,7 @@ $(function(){
     $('.form__close').on('click', function() {
         $('.overlay, .form_testimonial').fadeOut();
     });
+    $('.menu').on('click', function() {
+        $('.list').toggleClass("active");
+    });
 });

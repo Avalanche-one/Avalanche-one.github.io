@@ -8,7 +8,18 @@
   <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-  <header class="header">
+  <header id="header" class="header">
+    <div class="menu">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <ul class="list active">
+      <li><a href="#header">Головна</a></li>
+      <li><a href="#services">Послуги</a></li>
+      <li><a href="#testimonials">Відгуки</a></li>
+      <li><a href="#contacts">Контакти</a></li>
+    </ul>
     <div class="container">
       <div class="header__inner">
         <div class="header__links">
@@ -32,11 +43,11 @@
         <div class="header__btn">
           <a href="#form">Записатись</a>
         </div>
-        <button class="button button_testimonials">Написати відгук</button>
       </div>
     </div>
   </header>
-  <section class="services">
+  <section id="services" class="services">
+    <div class="services__gradient"></div>
     <div class="container">
       <h2 class="title">
         Наші послуги
@@ -212,7 +223,7 @@
     </div>
   </section>
 
-  <section class="reasons">
+  <section id="reasons" class="reasons">
     <div class="reasons__gradient"></div>
     <div class="container">
       <h2 class="title title_reasons">
@@ -241,7 +252,8 @@
     </div>
   </section>
 
-  <section class="testimonials">
+  <section id="testimonials" class="testimonials">
+    <div class="testimonials__gradient"></div>
     <div class="container">
       <div class="title title_testimonials">
         Що про нас говорять 
@@ -306,7 +318,8 @@
     </div>
   </section>
 
-  <section class="contacts">
+  <section id="contacts" class="contacts">
+    <div class="contacts__gradient"></div>
     <div class="container">
       <div class="title title_contacts">
         Як <span>нас</span> знайти
@@ -329,6 +342,7 @@
             <div class="contacts__item-image"><img src="img/phone-alt-solid.svg" alt="phone"></div>
             <div class="contacts__item-text"><a href="tel:380509525094">050 952 50 94</a></div>
           </div>
+          <button class="button button_testimonials">Написати відгук</button>
         </div>
       </div>
     </div>
