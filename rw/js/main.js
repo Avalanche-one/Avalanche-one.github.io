@@ -22,4 +22,11 @@ $(function(){
     $('.menu').on('click', function() {
         $('.list').toggleClass("active");
     });
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 1600) {
+            $('.up').fadeIn();
+        } else {
+            $('.up').fadeOut();
+        }
+    });
 });
