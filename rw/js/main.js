@@ -19,7 +19,7 @@ $(function(){
     $('.form__close').on('click', function() {
         $('.overlay, .form_testimonial').fadeOut();
     });
-    $('.menu').on('click', function() {
+    $('.burger').on('click', function() {
         $('.list').toggleClass("active");
     });
     $(window).scroll(function() {
@@ -28,5 +28,8 @@ $(function(){
         } else {
             $('.up').fadeOut();
         }
+    });
+    $(window).on("scroll", function() {
+        $('.menu').toggleClass("active", $(this).scrollTop() > $(window).height());
     });
 });
